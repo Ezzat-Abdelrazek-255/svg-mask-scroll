@@ -3,8 +3,7 @@ import React from "react";
 const StarSvg = () => {
   return (
     <svg
-      width="544"
-      height="544"
+      className="star"
       viewBox="0 0 544 544"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -27,7 +27,7 @@ const SVGMaskVideo = () => {
     { scope: containerRef },
   );
   return (
-    <main className="sticky top-0 z-0">
+    <main className="sticky top-0 z-0 overflow-x-hidden">
       <div ref={containerRef}>
         <div className="h-screen w-full">
           <video

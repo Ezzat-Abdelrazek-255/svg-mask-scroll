@@ -22,3 +22,24 @@ body {
 html {
   overflow-x: hidden;
 }
+
+body {
+  max-width: 100svw;
+}
+
+.star {
+  width: 544px;
+  /* default size */
+  height: 544px;
+
+  /* responsive adjustments */
+  @media (max-width: 768px) {
+    width: 300px;
+    height: 300px;
+  }
+
+  @media (max-width: 480px) {
+    width: 200px;
+    height: 200px;
+  }
+}
