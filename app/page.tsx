@@ -8,7 +8,7 @@ export default function Home() {
       </div>
       <SVGMaskVideo />
       <div className="min-h-[125svh] bg-background z-[-1]"></div>
-      <div className="min-h-svh bg-foreground text-background font-sans uppercase text-[max(3.2rem,12vw)] leading-[85%] text-center grid place-content-center relative z-10 px-[8vw] tracking-tight">
+      <div className="min-h-[120svh] bg-foreground text-background font-sans uppercase text-[max(3.2rem,12vw)] leading-[85%] text-center grid place-content-center relative z-10 px-[8vw] tracking-tight pt-[20svh]">
         Stories Shape How We Live
       </div>
     </div>
