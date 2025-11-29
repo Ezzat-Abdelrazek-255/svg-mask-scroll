@@ -20,7 +20,7 @@ const SVGMaskVideo = () => {
           pin: false,
           scrub: true,
         },
-        scale: 8,
+        scale: 9,
         ease: "none",
       });
     },

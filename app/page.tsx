@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <div className="min-h-svh"></div>
       <SVGMaskVideo />
-      <div className="min-h-svh bg-background z-[-1]"></div>
+      <div className="min-h-[125svh] bg-background z-[-1]"></div>
       <div className="min-h-svh relative z-10 bg-background"></div>
     </div>
   );

@@ -18,3 +18,7 @@ body {
     text-wrap: balance;
   }
 }
+
+html {
+  overflow-x: hidden;
+}
