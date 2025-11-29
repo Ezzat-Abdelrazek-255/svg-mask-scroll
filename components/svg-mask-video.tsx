@@ -33,6 +33,7 @@ const SVGMaskVideo = () => {
           <video
             autoPlay
             muted
+            playsInline
             loop
             className="absolute inset-0 w-full h-full object-cover"
             src="/videoplayback.mp4"
