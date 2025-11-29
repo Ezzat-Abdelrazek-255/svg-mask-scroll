@@ -16,7 +16,7 @@ const SVGMaskVideo = () => {
         scrollTrigger: {
           trigger: containerRef.current,
           start: "top top",
-          end: `+=${window.innerHeight * 1.25}`,
+          end: `+=${window.innerHeight * 1.5}`,
           pin: false,
           scrub: true,
         },
@@ -27,7 +27,7 @@ const SVGMaskVideo = () => {
     { scope: containerRef },
   );
   return (
-    <main className="sticky top-0 z-0 overflow-x-hidden">
+    <main className="sticky top-0 z-0 overflow-hidden">
       <div ref={containerRef}>
         <div className="h-screen w-full">
           <video
@@ -39,7 +39,7 @@ const SVGMaskVideo = () => {
             src="/videoplayback.mp4"
           />
 
-          <div className="h-screen bg-black relative z-10 grid place-content-center mix-blend-multiply ">
+          <div className="h-screen bg-white relative z-10 grid place-content-center mix-blend-screen ">
             <StarSvg />
           </div>
         </div>

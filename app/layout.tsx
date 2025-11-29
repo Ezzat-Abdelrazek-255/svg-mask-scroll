@@ -3,15 +3,9 @@ import localFont from "next/font/local";
 import "./globals.css";
 import { ReactLenis } from "@/libs/lenis";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
+const kilimanjaroSans = localFont({
+  src: "./fonts/KilimanjaroSans-Regular.woff2",
+  variable: "--font-kilimanjaro-sans",
 });
 
 export const metadata: Metadata = {
@@ -26,9 +20,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${kilimanjaroSans.variable} antialiased`}>
+        <div className="pointer-events-none fixed inset-0 z-[99999] h-screen bg-noise bg-repeat opacity-[0.03]"></div>
         <ReactLenis root>{children}</ReactLenis>
       </body>
     </html>
